@@ -1,15 +1,22 @@
 import { Component } from '@angular/core';
-import { ThemeToggleComponent } from './theme/theme.component';
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from './navbar/navbar.component';
+import { RouterModule } from '@angular/router';
+import { ThemeService } from './theme/theme.service';
 
 @Component({
   selector: 'app-root',
   template: `
+    <header>
+      <app-navbar></app-navbar>
+    </header>
     <main>
-      <app-theme-toggle></app-theme-toggle>
+      <router-outlet></router-outlet>
     </main>
   `,
   standalone: true,
-  imports: [CommonModule, ThemeToggleComponent],
+  imports: [CommonModule, NavbarComponent, RouterModule],
 })
-export class App {}
+export class App {
+    constructor(private themeService: ThemeService) {}
+}
