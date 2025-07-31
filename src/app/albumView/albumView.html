@@ -1,10 +1,7 @@
-<div>
-  <h2>{{ title }}</h2>
-  <div style="display: flex; flex-wrap: wrap; gap: 1rem">
-    <img
-      *ngFor="let img of images"
-      [src]="img"
-      style="width: 300px; object-fit: cover"
-    />
-  </div>
-</div>
+<main>
+  <ngx-masonry [options]="{ columnWidth: 300, fitWidth: true, gutter: 10 }">
+    <div ngxMasonryItem class="masonry-item" *ngFor="let item of images">
+      <img [src]="item" [alt]="item" width="300px" />
+    </div>
+  </ngx-masonry>
+</main>

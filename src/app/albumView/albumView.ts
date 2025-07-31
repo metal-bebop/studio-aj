@@ -1,12 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { NgxMasonryModule } from 'ngx-masonry';
 
 @Component({
   selector: 'app-album-view',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgxMasonryModule],
   templateUrl: './albumView.html',
+  styleUrls: ['./albumView.scss'],
 })
 export class AlbumViewComponent {
   images: string[] = [];
