@@ -1,7 +1,13 @@
 <main>
   <ngx-masonry [options]="{ columnWidth: 300, fitWidth: true, gutter: 10 }">
     <div ngxMasonryItem class="masonry-item" *ngFor="let item of images">
-      <img [src]="item" [alt]="item" width="300px" />
+      <img
+        [src]="item"
+        loading="lazy"
+        alt=""
+        style="width: 300px; cursor: pointer"
+        (click)="openLightbox(images.indexOf(item))"
+      />
     </div>
   </ngx-masonry>
 </main>
