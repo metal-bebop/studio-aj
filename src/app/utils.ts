@@ -19,3 +19,11 @@ export function getMoonSvgDataUrl(color: string): string {
   const svg = `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 12a6 6 0 1 1-6-6 4.5 4.5 0 1 0 6 6z" fill="${color}"/></svg>`;
   return `url('data:image/svg+xml,${encodeURIComponent(svg)}')`;
 }
+
+export function toKebabCase(str: string): string {
+  return str
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}

@@ -1,9 +1,11 @@
 import { Routes } from '@angular/router';
 import { ThemeToggleComponent } from './theme/theme.component';
-import { GalleryComponent } from './gallery/gallery';
+import { AlbumCollectionComponent } from './albumCollection/albumCollection';
+import { AlbumViewComponent } from './albumView/albumView';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/gallery', pathMatch: 'full' },
-  { path: 'gallery', component: GalleryComponent },
+  { path: 'gallery', component: AlbumCollectionComponent },
+  { path: 'gallery/:albumId', component: AlbumViewComponent },
   { path: 'theme', component: ThemeToggleComponent },
 ];

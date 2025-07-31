@@ -10,13 +10,11 @@ import { ThemeService } from './theme/theme.service';
     <header>
       <app-navbar></app-navbar>
     </header>
-    <main>
-      <router-outlet></router-outlet>
-    </main>
+    <router-outlet></router-outlet>
   `,
   standalone: true,
   imports: [CommonModule, NavbarComponent, RouterModule],
 })
 export class App {
-    constructor(private themeService: ThemeService) {}
+  constructor(private themeService: ThemeService) {}
 }
