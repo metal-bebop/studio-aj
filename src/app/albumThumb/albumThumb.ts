@@ -1,11 +1,12 @@
 import { Component, Input } from '@angular/core';
 import { toKebabCase } from '../utils';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-album-thumb',
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterModule, CommonModule],
   templateUrl: './albumThumb.html',
   styleUrl: './albumThumb.scss',
 })
