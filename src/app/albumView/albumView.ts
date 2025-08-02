@@ -12,14 +12,17 @@ import { NgxMasonryModule } from 'ngx-masonry';
   styleUrls: ['./albumView.scss'],
 })
 export class AlbumViewComponent {
-  images: string[] = [];
+  images: { original: string; compressed: string }[] = [];
   title: string = '';
 
   private lightbox: any;
 
   constructor(private router: Router) {
     const nav = this.router.getCurrentNavigation();
-    const state = nav?.extras.state as { images?: string[]; title?: string };
+    const state = nav?.extras.state as {
+      images?: { original: string; compressed: string }[];
+      title?: string;
+    };
     this.images = state?.images ?? [];
     this.title = state?.title ?? '';
   }
@@ -27,11 +30,10 @@ export class AlbumViewComponent {
   ngAfterViewInit() {
     this.lightbox = GLightbox({
       elements: this.images.map((img) => ({
-        href: img,
+        href: img.original,
       })) as any,
     });
   }
-
   openLightbox(index: number) {
     if (this.lightbox) {
       this.lightbox.openAt(index);

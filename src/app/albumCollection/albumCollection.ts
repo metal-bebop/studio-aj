@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 
 import manifestJson from '../../../public/assets/albums/manifest.json';
 
-type Manifest = Record<string, string[]>;
+type Manifest = Record<string, { original: string; compressed: string }[]>;
 
 const manifest = manifestJson as Manifest;
 
@@ -16,13 +16,19 @@ const manifest = manifestJson as Manifest;
   styleUrl: './albumCollection.scss',
 })
 export class AlbumCollectionComponent {
-  protected albums: { title: string; images: string[] }[] = [];
+  protected albums: {
+    title: string;
+    images: { original: string; compressed: string }[];
+  }[] = [];
 
   ngOnInit() {
     (Object.keys(manifest) as Array<keyof typeof manifest>).forEach((key) => {
       this.albums.push({
         title: key,
-        images: manifest[key].map((img) => `assets/albums/${key}/${img}`),
+        images: manifest[key].map((img) => ({
+          original: `assets/albums/${key}/${img.original}`,
+          compressed: `assets/albums/compressed/${key}/${img.compressed}`,
+        })),
       });
     });
   }

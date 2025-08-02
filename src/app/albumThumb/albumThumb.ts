@@ -11,7 +11,7 @@ import { RouterModule } from '@angular/router';
 })
 export class AlbumThumbComponent {
   @Input() title!: string;
-  @Input() images!: string[];
+  @Input() images!: { original: string; compressed: string }[];
 
   protected link: string = '';
 
