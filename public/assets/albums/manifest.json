@@ -1,20 +1,20 @@
 {
-  "Belfast": [
-    "0.1.JPG",
-    "0.2.JPG",
-    "0.3.JPG",
-    "1.2.jpg",
-    "2.0.jpg",
-    "2.1.2.jpg",
-    "2.2.jpg",
-    "2.3.jpg",
-    "3.2.jpg",
-    "4.1.jpg",
-    "4.21.jpg",
-    "4.3.jpg",
-    "5.1.jpg",
-    "5.2.jpg",
-    "5.3.jpg",
+  "belfast": [
+    "0.1 (Copy).JPG",
+    "0.2 (Copy).JPG",
+    "0.3 (Copy).JPG",
+    "6.2 (Copy).jpg",
+    "6.3 (Copy).jpg",
+    "7.3 (Copy).jpg",
+    "7.5 (Copy).JPG",
+    "IMG_6015 (Copy).jpg",
+    "IMG_6700 (Copy).jpg",
+    "IMG_8115 (Copy).jpg",
+    "IMG_8125 (Copy).jpg",
+    "starry_night (Copy).png",
+    "sunset (Copy).jpg"
+  ],
+  "house": [
     "6.12.jpg",
     "6.2.jpg",
     "6.3.jpg",
@@ -22,7 +22,6 @@
     "7.2.jpg",
     "7.3.jpg",
     "7.5.JPG",
-    "DSCF0084.jpg",
     "IMG_5907.jpg",
     "IMG_6015.jpg",
     "IMG_6700.jpg",
@@ -32,15 +31,11 @@
     "IMG_8115.jpg",
     "IMG_8125.jpg",
     "P1000284.jpg",
-    "cloud.jpg",
     "neon.jpg",
     "neon_library.jpg",
     "starry_night.png",
     "sunset.jpg",
     "tower.jpg",
     "up_and_down.jpg"
-  ],
-  "Donegal": [
-    "DSCF1722.jpg"
   ]
 }

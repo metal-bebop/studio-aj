@@ -2,7 +2,11 @@ import { Component } from '@angular/core';
 import { AlbumThumbComponent } from '../albumThumb/albumThumb';
 import { CommonModule } from '@angular/common';
 
-import manifest from '../../../public/assets/albums/manifest.json';
+import manifestJson from '../../../public/assets/albums/manifest.json';
+
+type Manifest = Record<string, string[]>;
+
+const manifest = manifestJson as Manifest;
 
 @Component({
   selector: 'app-album-collection',

@@ -3,7 +3,6 @@
     <div ngxMasonryItem class="masonry-item" *ngFor="let item of images">
       <img
         [src]="item"
-        loading="lazy"
         alt=""
         style="width: 300px; cursor: pointer"
         (click)="openLightbox(images.indexOf(item))"
