@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
+const os = require("os");
 
 const albumsDir = path.join(__dirname, "public/assets/albums");
 const compressedDir = path.join(albumsDir, "compressed");
@@ -27,7 +28,6 @@ fs.readdirSync(albumsDir).forEach((albumName) => {
       const compressedName = img.replace(/\.(jpe?g|png)$/i, ".webp");
       const dest = path.join(compressedAlbumPath, compressedName);
 
-      // Store both compressed and original
       manifest[albumName].push({
         original: img,
         compressed: /\.(svg)$/i.test(img) ? img : compressedName,
@@ -35,14 +35,44 @@ fs.readdirSync(albumsDir).forEach((albumName) => {
 
       if (/\.svg$/i.test(img)) {
         fs.copyFileSync(src, path.join(compressedAlbumPath, img));
-      } else {
-        sharp(src)
+        return;
+      }
+
+      const tmpFile = path.join(os.tmpdir(), `tmp-${Date.now()}-${img}`);
+
+      let compressOriginal;
+      if (/\.(jpe?g)$/i.test(img)) {
+        compressOriginal = sharp(src)
           .rotate()
           .resize({ height: 1600 })
-          .webp({ quality: 80 })
-          .toFile(dest)
-          .catch((err) => console.error("Error compressing", src, err));
+          .jpeg({ quality: 95 })
+          .toFile(tmpFile);
+      } else if (/\.png$/i.test(img)) {
+        compressOriginal = sharp(src)
+          .rotate()
+          .resize({ height: 1600 })
+          .png({ quality: 95 })
+          .toFile(tmpFile);
+      } else {
+        fs.copyFileSync(src, tmpFile);
+        compressOriginal = Promise.resolve();
       }
+
+      // Create compressed version (lower quality, always webp)
+      const compressWebp = sharp(src)
+        .rotate()
+        .resize({ height: 1600 })
+        .webp({ quality: 80 })
+        .toFile(dest)
+        .catch((err) => console.error("Error compressing", src, err));
+
+      // After both compressions, overwrite the original
+      Promise.all([compressOriginal, compressWebp])
+        .then(() => {
+          fs.copyFileSync(tmpFile, src);
+          fs.unlinkSync(tmpFile);
+        })
+        .catch((err) => console.error("Error compressing original", src, err));
     });
   }
 });
