@@ -1,1 +1,532 @@
-{}
+{
+  "Pride": [
+    {
+      "original": "13A_00693.jpg",
+      "compressed": "13A_00693.webp"
+    },
+    {
+      "original": "14A_00694.jpg",
+      "compressed": "14A_00694.webp"
+    },
+    {
+      "original": "15A_00695.jpg",
+      "compressed": "15A_00695.webp"
+    },
+    {
+      "original": "16A_00696.jpg",
+      "compressed": "16A_00696.webp"
+    },
+    {
+      "original": "17A_00697.jpg",
+      "compressed": "17A_00697.webp"
+    },
+    {
+      "original": "18A_00698.jpg",
+      "compressed": "18A_00698.webp"
+    },
+    {
+      "original": "19A_00699.jpg",
+      "compressed": "19A_00699.webp"
+    },
+    {
+      "original": "20A_00700.jpg",
+      "compressed": "20A_00700.webp"
+    },
+    {
+      "original": "21A_00701.jpg",
+      "compressed": "21A_00701.webp"
+    },
+    {
+      "original": "22A_00702.jpg",
+      "compressed": "22A_00702.webp"
+    },
+    {
+      "original": "23A_00703.jpg",
+      "compressed": "23A_00703.webp"
+    },
+    {
+      "original": "24A_00704.jpg",
+      "compressed": "24A_00704.webp"
+    },
+    {
+      "original": "_1A_00687.jpg",
+      "compressed": "_1A_00687.webp"
+    },
+    {
+      "original": "_2A_00688.jpg",
+      "compressed": "_2A_00688.webp"
+    },
+    {
+      "original": "_3A_00689.jpg",
+      "compressed": "_3A_00689.webp"
+    },
+    {
+      "original": "_4A_00690.jpg",
+      "compressed": "_4A_00690.webp"
+    },
+    {
+      "original": "_5A_00691.jpg",
+      "compressed": "_5A_00691.webp"
+    },
+    {
+      "original": "_6A_00692.jpg",
+      "compressed": "_6A_00692.webp"
+    }
+  ],
+  "a misc film roll": [
+    {
+      "original": "_10_00970.jpg",
+      "compressed": "_10_00970.webp"
+    },
+    {
+      "original": "_11_00971.jpg",
+      "compressed": "_11_00971.webp"
+    },
+    {
+      "original": "_12_00972.jpg",
+      "compressed": "_12_00972.webp"
+    },
+    {
+      "original": "_13_00973.jpg",
+      "compressed": "_13_00973.webp"
+    },
+    {
+      "original": "_14_00974.jpg",
+      "compressed": "_14_00974.webp"
+    },
+    {
+      "original": "_15_00975.jpg",
+      "compressed": "_15_00975.webp"
+    },
+    {
+      "original": "_17_00977.jpg",
+      "compressed": "_17_00977.webp"
+    },
+    {
+      "original": "_18_00978.jpg",
+      "compressed": "_18_00978.webp"
+    },
+    {
+      "original": "_19_00979.jpg",
+      "compressed": "_19_00979.webp"
+    },
+    {
+      "original": "_20_00980.jpg",
+      "compressed": "_20_00980.webp"
+    },
+    {
+      "original": "_21_00981.jpg",
+      "compressed": "_21_00981.webp"
+    },
+    {
+      "original": "_22_00982.jpg",
+      "compressed": "_22_00982.webp"
+    },
+    {
+      "original": "_23_00983.jpg",
+      "compressed": "_23_00983.webp"
+    },
+    {
+      "original": "_24_00984.jpg",
+      "compressed": "_24_00984.webp"
+    },
+    {
+      "original": "_25_00985.jpg",
+      "compressed": "_25_00985.webp"
+    },
+    {
+      "original": "_26_00986.jpg",
+      "compressed": "_26_00986.webp"
+    },
+    {
+      "original": "_27_00987.jpg",
+      "compressed": "_27_00987.webp"
+    },
+    {
+      "original": "_28_00988.jpg",
+      "compressed": "_28_00988.webp"
+    },
+    {
+      "original": "_29_00989.jpg",
+      "compressed": "_29_00989.webp"
+    },
+    {
+      "original": "_30_00990.jpg",
+      "compressed": "_30_00990.webp"
+    },
+    {
+      "original": "_31_00991.jpg",
+      "compressed": "_31_00991.webp"
+    },
+    {
+      "original": "_32_00992.jpg",
+      "compressed": "_32_00992.webp"
+    },
+    {
+      "original": "_33_00993.jpg",
+      "compressed": "_33_00993.webp"
+    },
+    {
+      "original": "_34_00994.jpg",
+      "compressed": "_34_00994.webp"
+    },
+    {
+      "original": "_35_00995.jpg",
+      "compressed": "_35_00995.webp"
+    },
+    {
+      "original": "_36_00996.jpg",
+      "compressed": "_36_00996.webp"
+    },
+    {
+      "original": "_37_00997.jpg",
+      "compressed": "_37_00997.webp"
+    },
+    {
+      "original": "__0_00960.jpg",
+      "compressed": "__0_00960.webp"
+    },
+    {
+      "original": "__1_00961.jpg",
+      "compressed": "__1_00961.webp"
+    },
+    {
+      "original": "__2_00962.jpg",
+      "compressed": "__2_00962.webp"
+    },
+    {
+      "original": "__3_00963.jpg",
+      "compressed": "__3_00963.webp"
+    },
+    {
+      "original": "__4_00964.jpg",
+      "compressed": "__4_00964.webp"
+    },
+    {
+      "original": "__5_00965.jpg",
+      "compressed": "__5_00965.webp"
+    },
+    {
+      "original": "__6_00966.jpg",
+      "compressed": "__6_00966.webp"
+    },
+    {
+      "original": "__7_00967.jpg",
+      "compressed": "__7_00967.webp"
+    },
+    {
+      "original": "__8_00968.jpg",
+      "compressed": "__8_00968.webp"
+    },
+    {
+      "original": "__9_00969.jpg",
+      "compressed": "__9_00969.webp"
+    }
+  ],
+  "donegal trip": [
+    {
+      "original": "DSCF1670.JPG",
+      "compressed": "DSCF1670.webp"
+    },
+    {
+      "original": "DSCF1678.jpg",
+      "compressed": "DSCF1678.webp"
+    },
+    {
+      "original": "DSCF1679.JPG",
+      "compressed": "DSCF1679.webp"
+    },
+    {
+      "original": "DSCF1697.JPG",
+      "compressed": "DSCF1697.webp"
+    },
+    {
+      "original": "DSCF1701.JPG",
+      "compressed": "DSCF1701.webp"
+    },
+    {
+      "original": "DSCF1725.JPG",
+      "compressed": "DSCF1725.webp"
+    }
+  ],
+  "edinburgh": [
+    {
+      "original": "DSCF1355.JPG",
+      "compressed": "DSCF1355.webp"
+    },
+    {
+      "original": "DSCF1363.JPG",
+      "compressed": "DSCF1363.webp"
+    },
+    {
+      "original": "DSCF1467_02.jpg",
+      "compressed": "DSCF1467_02.webp"
+    }
+  ],
+  "europe": [
+    {
+      "original": "DSCF0090.JPG",
+      "compressed": "DSCF0090.webp"
+    },
+    {
+      "original": "DSCF0133.JPG",
+      "compressed": "DSCF0133.webp"
+    },
+    {
+      "original": "DSCF0142.JPG",
+      "compressed": "DSCF0142.webp"
+    },
+    {
+      "original": "DSCF0179.JPG",
+      "compressed": "DSCF0179.webp"
+    },
+    {
+      "original": "DSCF0198.JPG",
+      "compressed": "DSCF0198.webp"
+    },
+    {
+      "original": "DSCF0200.JPG",
+      "compressed": "DSCF0200.webp"
+    },
+    {
+      "original": "DSCF0210.JPG",
+      "compressed": "DSCF0210.webp"
+    },
+    {
+      "original": "DSCF0212.JPG",
+      "compressed": "DSCF0212.webp"
+    },
+    {
+      "original": "DSCF0261.JPG",
+      "compressed": "DSCF0261.webp"
+    },
+    {
+      "original": "DSCF0286.JPG",
+      "compressed": "DSCF0286.webp"
+    },
+    {
+      "original": "DSCF0291.JPG",
+      "compressed": "DSCF0291.webp"
+    },
+    {
+      "original": "DSCF0298.JPG",
+      "compressed": "DSCF0298.webp"
+    },
+    {
+      "original": "DSCF0302.JPG",
+      "compressed": "DSCF0302.webp"
+    },
+    {
+      "original": "DSCF0309.JPG",
+      "compressed": "DSCF0309.webp"
+    },
+    {
+      "original": "DSCF0318.JPG",
+      "compressed": "DSCF0318.webp"
+    },
+    {
+      "original": "DSCF0334.JPG",
+      "compressed": "DSCF0334.webp"
+    },
+    {
+      "original": "DSCF0372.JPG",
+      "compressed": "DSCF0372.webp"
+    },
+    {
+      "original": "DSCF0396.JPG",
+      "compressed": "DSCF0396.webp"
+    },
+    {
+      "original": "DSCF0447.JPG",
+      "compressed": "DSCF0447.webp"
+    },
+    {
+      "original": "DSCF0471.JPG",
+      "compressed": "DSCF0471.webp"
+    },
+    {
+      "original": "DSCF0480.JPG",
+      "compressed": "DSCF0480.webp"
+    },
+    {
+      "original": "DSCF0491.JPG",
+      "compressed": "DSCF0491.webp"
+    },
+    {
+      "original": "DSCF0493.JPG",
+      "compressed": "DSCF0493.webp"
+    },
+    {
+      "original": "DSCF0514.JPG",
+      "compressed": "DSCF0514.webp"
+    },
+    {
+      "original": "DSCF0540.JPG",
+      "compressed": "DSCF0540.webp"
+    },
+    {
+      "original": "DSCF0544.JPG",
+      "compressed": "DSCF0544.webp"
+    },
+    {
+      "original": "DSCF0547.JPG",
+      "compressed": "DSCF0547.webp"
+    },
+    {
+      "original": "DSCF0560.JPG",
+      "compressed": "DSCF0560.webp"
+    },
+    {
+      "original": "DSCF0574.JPG",
+      "compressed": "DSCF0574.webp"
+    },
+    {
+      "original": "DSCF0585.JPG",
+      "compressed": "DSCF0585.webp"
+    },
+    {
+      "original": "DSCF0604.JPG",
+      "compressed": "DSCF0604.webp"
+    },
+    {
+      "original": "DSCF0606.JPG",
+      "compressed": "DSCF0606.webp"
+    },
+    {
+      "original": "DSCF0612.JPG",
+      "compressed": "DSCF0612.webp"
+    },
+    {
+      "original": "DSCF0632.JPG",
+      "compressed": "DSCF0632.webp"
+    },
+    {
+      "original": "DSCF0638.JPG",
+      "compressed": "DSCF0638.webp"
+    },
+    {
+      "original": "DSCF0640.JPG",
+      "compressed": "DSCF0640.webp"
+    }
+  ],
+  "forestry": [
+    {
+      "original": "DSCF0227.JPG",
+      "compressed": "DSCF0227.webp"
+    },
+    {
+      "original": "DSCF0250.JPG",
+      "compressed": "DSCF0250.webp"
+    },
+    {
+      "original": "DSCF0258.JPG",
+      "compressed": "DSCF0258.webp"
+    }
+  ],
+  "glenoe waterfall": [
+    {
+      "original": "000033730015.JPG",
+      "compressed": "000033730015.webp"
+    },
+    {
+      "original": "000033730016.JPG",
+      "compressed": "000033730016.webp"
+    },
+    {
+      "original": "000033730017.JPG",
+      "compressed": "000033730017.webp"
+    },
+    {
+      "original": "000033730018.JPG",
+      "compressed": "000033730018.webp"
+    },
+    {
+      "original": "000033730034.JPG",
+      "compressed": "000033730034.webp"
+    }
+  ],
+  "nocturnal": [
+    {
+      "original": "DSCF0586.jpg",
+      "compressed": "DSCF0586.webp"
+    },
+    {
+      "original": "DSCF0597.jpg",
+      "compressed": "DSCF0597.webp"
+    },
+    {
+      "original": "DSCF0598.jpg",
+      "compressed": "DSCF0598.webp"
+    },
+    {
+      "original": "DSCF0618.jpg",
+      "compressed": "DSCF0618.webp"
+    },
+    {
+      "original": "DSCF0621.jpg",
+      "compressed": "DSCF0621.webp"
+    },
+    {
+      "original": "DSCF0635.jpg",
+      "compressed": "DSCF0635.webp"
+    },
+    {
+      "original": "DSCF0640.jpg",
+      "compressed": "DSCF0640.webp"
+    }
+  ],
+  "unsorted": [
+    {
+      "original": "5.2 fixed (ignore other 5.2! i cant delete it oops).jpg",
+      "compressed": "5.2 fixed (ignore other 5.2! i cant delete it oops).webp"
+    },
+    {
+      "original": "DSCF0031.JPG",
+      "compressed": "DSCF0031.webp"
+    },
+    {
+      "original": "DSCF0064.JPG",
+      "compressed": "DSCF0064.webp"
+    },
+    {
+      "original": "DSCF0080.jpg",
+      "compressed": "DSCF0080.webp"
+    },
+    {
+      "original": "DSCF0093.JPG",
+      "compressed": "DSCF0093.webp"
+    },
+    {
+      "original": "DSCF0102.JPG",
+      "compressed": "DSCF0102.webp"
+    },
+    {
+      "original": "DSCF0566.JPG",
+      "compressed": "DSCF0566.webp"
+    },
+    {
+      "original": "DSCF1616.jpg",
+      "compressed": "DSCF1616.webp"
+    },
+    {
+      "original": "DSCF1621.jpg",
+      "compressed": "DSCF1621.webp"
+    },
+    {
+      "original": "DSCF1632.jpg",
+      "compressed": "DSCF1632.webp"
+    },
+    {
+      "original": "beach.jpg",
+      "compressed": "beach.webp"
+    },
+    {
+      "original": "hotel.jpg",
+      "compressed": "hotel.webp"
+    },
+    {
+      "original": "pinball.jpg",
+      "compressed": "pinball.webp"
+    }
+  ]
+}
