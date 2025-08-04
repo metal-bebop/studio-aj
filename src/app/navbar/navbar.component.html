@@ -1,9 +1,14 @@
 <nav class="navbar">
   <div class="navbar-logo">
-    <img src="assets/logo.png" alt="Studio AJ" />
+    <a routerLink="/" class="logo-link">
+      <span>Studio AJ</span>
+    </a>
   </div>
-  <ul class="navbar-links">
+  <div class="theme-toggle">
+    <app-theme-toggle></app-theme-toggle>
+  </div>
+  <!-- <ul class="navbar-links">
     <li><a routerLink="/gallery" routerLinkActive="active">Gallery</a></li>
     <li><a routerLink="/theme" routerLinkActive="active">Theme</a></li>
-  </ul>
+  </ul> -->
 </nav>

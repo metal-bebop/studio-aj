@@ -1,20 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 @import "styles/variables";
 
-html,
-body {
-  font-family: "Space Mono", monospace;
-  margin: 0;
-  padding: 0;
-  background-color: var(--bgColor);
-  color: var(--textColor);
-}
-
 body.dark {
   @include darken();
 }
 body.light {
   @include lighten();
+}
+
+html,
+body {
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background: color-mix(in srgb, var(--bgColor) 90%, grey 10%);
+  transition: background 0.5s, color 0.5s;
+  color: color-mix(in srgb, var(--textColor) 90%, grey 10%);
 }
 
 button {
@@ -23,7 +24,7 @@ button {
 
 main {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 6.5rem);
   justify-content: center;
   align-items: center;
   flex-direction: column;

@@ -10,18 +10,18 @@ import {
   standalone: true,
   styleUrls: ['./theme.component.scss'],
   template: `
-    <main>
-      <div>
-        <label class="toggle-switch">
-          <input type="checkbox" [checked]="isDark" (change)="toggle()" />
-          <span
-            class="slider"
-            [style.--icon-url]="isDark ? moonSvgDataUrl : sunSvgDataUrl"
-          ></span>
-        </label>
-        <span class="slider-label">{{ isDark ? 'Dark' : 'Light' }}</span>
-      </div>
-    </main>
+    <!-- <main>
+      <div> -->
+    <label class="toggle-switch">
+      <input type="checkbox" [checked]="isDark" (change)="toggle()" />
+      <span
+        class="slider"
+        [style.--icon-url]="isDark ? moonSvgDataUrl : sunSvgDataUrl"
+      ></span>
+    </label>
+    <!-- <span class="slider-label">{{ isDark ? 'Dark' : 'Light' }}</span> -->
+    <!-- </div>
+    </main> -->
   `,
 })
 export class ThemeToggleComponent {

@@ -7,9 +7,7 @@ import { ThemeService } from './theme/theme.service';
 @Component({
   selector: 'app-root',
   template: `
-    <header>
-      <app-navbar></app-navbar>
-    </header>
+    <app-navbar></app-navbar>
     <router-outlet></router-outlet>
   `,
   standalone: true,

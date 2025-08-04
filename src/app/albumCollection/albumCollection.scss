@@ -1,7 +1,21 @@
+main {
+  margin-top: 0rem;
+}
+
 .album-thumbnails {
+  margin-top: 6.5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem 10rem;
   flex-direction: row;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  main {
+    justify-content: flex-start;
+  }
+  .album-thumbnails {
+    flex-direction: column;
+  }
 }
